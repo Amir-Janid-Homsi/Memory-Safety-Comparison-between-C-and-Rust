@@ -1,0 +1,12 @@
+[package]
+name = "rustArray"
+version = "0.1.0"
+edition = "2024"
+
+[[bin]]
+name = "unsafe"
+path = "src/bin/unsafe.rs"
+
+[[bin]]
+name = "safe"
+path = "src/bin/safe.rs"
